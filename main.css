@@ -66,6 +66,18 @@ ul, li, h4{
 	display: inline-block;
 	width: 40%;
 }
+
+#tieContent {
+	background-color: #f4f4f4;
+
+}
+#tieImages {
+	
+}
+#tieHeader > h1 {
+	text-align: center;
+
+}
 .tieAccessories {
 	display: inline-block;
 	width: 30%;
@@ -83,10 +95,42 @@ ul, li, h4{
 #tieBars {
 	
 }
+#tieText {
+
+}
+#tieText > h2  {
+	text-align: center;
+}
+#tieText > a {
+	display: block;
+	text-align: center;
+	padding-bottom: 50px;
+}
 #tieExtraInfo {
 
 }
 .tieInfo {
 	display: inline-block;
 	width: 20%;
+	vertical-align: top;
+}
+.tieInfo > img {
+	width: 100%;
+}
+
+
+/*FOOTER*/
+.listsFooter {
+	float: left;
+	width: 10%;
+}
+.listsFooter > h4 {
+	font-weight: bold;
+	font-size: 12px;
+	display: block;
+	vertical-align: top;
+}
+.listsFooter > ul > li {
+	display: block;
+	font-size: 10px;
 }
