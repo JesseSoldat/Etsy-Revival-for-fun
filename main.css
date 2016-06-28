@@ -1,0 +1,54 @@
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+ul, li, h4{
+	margin: 0;
+	padding: 0;
+}
+/*TOP ORANGE*/
+#topAdds {
+	background-color: #fa6938;
+}
+#logoAdds {
+	display: inline-block;
+	width: 15%;
+}
+#topOffers {
+	display: inline-block;
+	width: 75%;
+}
+#topOffers > ul > li {
+	padding-right: 3%;
+}
+/*NAVIGATION*/
+#nav {
+	width: 100%;
+}
+#leftNav {
+	display: inline-block;
+	width: 20%;
+}
+#leftNav > img {
+	width: 70%;
+	padding-left: 30%;
+	padding-top: 5%;
+}
+
+#middleNav {
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+}
+#middleNav > ul {
+	width: 100%;
+	padding-top: 10%;
+	padding-left: 8%;
+}
+#middleNav > ul > li {
+	font-size: 30px;
+	margin-right: 4%;
+}
+#rightNav {
+
+}
