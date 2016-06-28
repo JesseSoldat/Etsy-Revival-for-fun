@@ -50,5 +50,43 @@ ul, li, h4{
 	margin-right: 4%;
 }
 #rightNav {
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;	
+}
+#signReg > a {
+	display: inline-block;
+	font-size: 10px;
+}
+#cartSearch > div {
+	display: inline-block;
+	width: 40%;
+}
+#cartSearch > input {
+	display: inline-block;
+	width: 40%;
+}
+.tieAccessories {
+	display: inline-block;
+	width: 30%;
+}
+.tieAccessories > img {
+	width: 100%;
+	
+}
+#bowTies {
+	
+}
+#pocketSquares {
+	
+}
+#tieBars {
+	
+}
+#tieExtraInfo {
 
+}
+.tieInfo {
+	display: inline-block;
+	width: 20%;
 }
