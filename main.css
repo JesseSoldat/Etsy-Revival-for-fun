@@ -19,17 +19,18 @@ body, div, ul, li, h2, h4, h5, p {
 	padding: .5% 0 .5% 5%;
 }
 #logoAdds > div  {	
-	padding: 3px 0;
-	width: 60%;
+	padding: 3px 2px;
+	width: 65%;
 	background-color: #c7532c;
 	border-radius: 3px;
 }
 #logoAdds > div > h4 {
-	padding: 5px;
+	padding: .7% 2%;
 	color: white;
 	font-size: .7em;
 	text-align: center;
 }
+/*TOP OFFERS */
 #topOffers {
 	display: inline-block;
 	width: 75%;
@@ -46,22 +47,22 @@ body, div, ul, li, h2, h4, h5, p {
 }
 #leftNav {
 	display: inline-block;
-	width: 20%;
+	width: 15%;
 }
 #leftNav > img {
 	width: 70%;
 	padding-left: 30%;
 	padding-top: 5%;
 }
-
+/*MIDDLE NAV*/
 #middleNav {
-	width: 60%;
+	width: 55%;
 	display: inline-block;
 	vertical-align: top;
 }
 #middleNav > ul {
 	width: 100%;
-	padding-top: 10%;
+	padding-top: 8%;
 	padding-left: 8%;
 }
 #middleNav > ul > li {
@@ -69,25 +70,73 @@ body, div, ul, li, h2, h4, h5, p {
 	margin-right: 4%;
 	color: #303030;
 }
-
+/*RIGHT NAV*/
 #rightNav {
-	width: 15%;
+	margin-top: 1.7%;
+	width: 25%;
 	display: inline-block;
 	vertical-align: top;	
 }
+/*SIGN REGISTER*/
+#signReg {
+	margin-left: 50%;
+}
 #signReg > a {
 	display: inline-block;
-	font-size: 10px;
+	margin-right: 3%;
+	font-size: 12px;
 	color: #9e9e9e;
+}
+
+/*CART SEARCH*/
+#cartSearch {
+	padding: 2% 1%;
+	margin-right: 1%;
 }
 #cartSearch > div {
 	display: inline-block;
-	width: 40%;
+	width: 30%;
 	border: 1px solid #e0e0e0;
 }
-#cartSearch > input {
+#cart {
+	background: url('assets/sprite@2x.png') no-repeat 11.658% 0.532%;
+	background-size: 400px 200px;
+	width: 14px;
+	height: 12px;
 	display: inline-block;
-	width: 40%;
+	vertical-align: middle;
+	margin-left: 5%;
+
+}
+#cartSearch > div > h5 {
+	color: #606060;
+	display: inline-block;
+	padding: 5% 2%;
+}
+#cartSearch > #search {
+	display: inline-block;
+	width: 63%;
+}
+/*SEARCH*/
+#search {
+	padding: 1%;
+}
+
+#magnify {
+	background: url('assets/sprite@2x.png') no-repeat 3.876% 0;
+	background-size: 400px 200px;
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	width: 10%;
+	margin: 1%;
+	vertical-align: middle;
+}
+#search > input {
+	display: inline-block;
+	width: 70%;
+	border: none;
+
 }
 
 /*tieContent*/
@@ -238,3 +287,5 @@ footer {
 	display: block;
 	font-size: .8em;
 }
+
+
