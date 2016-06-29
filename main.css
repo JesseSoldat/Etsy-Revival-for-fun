@@ -1,8 +1,11 @@
+a {
+	text-decoration: none;
+}
 li {
 	list-style-type: none;
 	display: inline-block;
 }
-ul, li, h4{
+body, div, ul, li, h2, h4, h5, p {
 	margin: 0;
 	padding: 0;
 }
@@ -13,6 +16,19 @@ ul, li, h4{
 #logoAdds {
 	display: inline-block;
 	width: 15%;
+	padding: .5% 0 .5% 5%;
+}
+#logoAdds > div  {	
+	padding: 3px 0;
+	width: 60%;
+	background-color: #c7532c;
+	border-radius: 3px;
+}
+#logoAdds > div > h4 {
+	padding: 5px;
+	color: white;
+	font-size: .7em;
+	text-align: center;
 }
 #topOffers {
 	display: inline-block;
@@ -20,10 +36,13 @@ ul, li, h4{
 }
 #topOffers > ul > li {
 	padding-right: 3%;
+	color: white;
+
 }
 /*NAVIGATION*/
 #nav {
 	width: 100%;
+	
 }
 #leftNav {
 	display: inline-block;
@@ -46,9 +65,11 @@ ul, li, h4{
 	padding-left: 8%;
 }
 #middleNav > ul > li {
-	font-size: 30px;
+	font-size: 1.3em;
 	margin-right: 4%;
+	color: #303030;
 }
+
 #rightNav {
 	width: 15%;
 	display: inline-block;
@@ -57,22 +78,48 @@ ul, li, h4{
 #signReg > a {
 	display: inline-block;
 	font-size: 10px;
+	color: #9e9e9e;
 }
 #cartSearch > div {
 	display: inline-block;
 	width: 40%;
+	border: 1px solid #e0e0e0;
 }
 #cartSearch > input {
 	display: inline-block;
 	width: 40%;
 }
 
+/*tieContent*/
 #tieContent {
 	background-color: #f4f4f4;
+	background-image: url('perforated-bottom@2x.png');
+  	background-position: top;
+  	background-repeat: round space;
+  	padding-top: 5px;
+  	background-repeat: repeat-x;
+  	
 
 }
 #tieImages {
-	
+	margin: 0 auto;
+	width: 70%; 
+}
+#tieImages > ul > li {
+	margin: 0;
+	padding: 0;
+	width: 7%;
+	margin: 0 1.2%;
+
+}
+#tieImages > ul > li > img {
+	width: 100%;
+	margin: 2%;
+}
+#tieImages > ul > li > h5 {
+	text-align: center;
+	color: #555555;
+	font-size: .7em;
 }
 #tieHeader > h1 {
 	text-align: center;
@@ -81,38 +128,45 @@ ul, li, h4{
 .tieAccessories {
 	display: inline-block;
 	width: 30%;
+	margin-left: 3%; 
 }
 .tieAccessories > img {
 	width: 100%;
 	
 }
-#bowTies {
-	
-}
-#pocketSquares {
-	
-}
-#tieBars {
-	
-}
+
 #tieText {
+	margin: 5% 0;
 
 }
 #tieText > h2  {
+	line-height: 1.6em;
 	text-align: center;
 }
 #tieText > a {
+	margin: 2% 0;
 	display: block;
 	text-align: center;
 	padding-bottom: 50px;
 }
+/*tieExtraInfo*/
 #tieExtraInfo {
-
+	height: 240px;
+	width: 90%;
+	margin: 0 auto;
 }
 .tieInfo {
 	display: inline-block;
-	width: 20%;
+	width: 18%;
 	vertical-align: top;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+.tieInfo > a {
+	font-size: .7em;
+}
+.tieInfo > p {
+	font-size: .7em;
 }
 .tieInfo > img {
 	width: 100%;
@@ -120,9 +174,18 @@ ul, li, h4{
 
 
 /*FOOTER*/
+footer {
+	background-color: #f4f4f4;
+	height: 140px;
+}
+#leftFooter {
+	display: inline-block;
+	width: 60%;
+	margin-left: 5%;
+}
 .listsFooter {
 	float: left;
-	width: 10%;
+	width: 20%;
 }
 .listsFooter > h4 {
 	font-weight: bold;
@@ -132,5 +195,46 @@ ul, li, h4{
 }
 .listsFooter > ul > li {
 	display: block;
+	line-height: 1.4em;
 	font-size: 10px;
+}
+
+
+#footerRight {
+	padding: 1.5%;
+	display: inline-block;
+	width: 20%;
+	background-color: #a2afc0;
+}
+#footerRight > h2 {
+	vertical-align: top;
+}
+
+
+/*contactFooter*/
+#contactFooter {
+	width: 100%;
+}
+#contactFooterLeft {
+	display: inline-block;
+	width: 40%;
+}
+#contactFooterRight  {
+	display: inline-block;
+	width: 40%;
+	margin: 0;
+	padding: 0;
+
+
+}
+#copyRight {
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+#copyRight > p {
+	margin-left: 5%;
+
+	display: block;
+	font-size: .8em;
 }
